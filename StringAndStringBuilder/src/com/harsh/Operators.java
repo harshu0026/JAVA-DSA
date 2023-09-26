@@ -9,10 +9,8 @@ public class Operators {
         System.out.println('a' + '1');
         System.out.println();
         System.out.println((char) ('a' + 1));
-        System.out.println((char) (65 + 1));
+        System.out.println((char) (64 + 26));
         System.out.println("a" + 1);
         System.out.println("Harsh" + new ArrayList<>());
-        System.out.println("Harsh" + new Integer(56));
-
     }
 }
