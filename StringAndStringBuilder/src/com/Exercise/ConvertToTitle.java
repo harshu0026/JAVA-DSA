@@ -2,7 +2,7 @@ package com.Exercise;
 
 public class ConvertToTitle {
     public static void main(String[] args) {
-        int col = 28;
+        int col = 700;
         System.out.println(convertToTitle(col));
     }
     static String convertToTitle(int columnNumber){

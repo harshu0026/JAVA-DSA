@@ -2,11 +2,10 @@ package com.harsh;
 
 public class Test {
     public static void main(String[] args) {
-        String s = "Hello";
-        String ans = toLowerCase(s);
-        System.out.println(ans);
+       String s = "aba";
     }
-    static String toLowerCase(String s){
-        return s.toLowerCase();
+    static boolean toLowerCase(String s){
+        String find = "";
+        return s.contains(find);
     }
 }
